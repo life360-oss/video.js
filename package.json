@@ -1,5 +1,5 @@
 {
-  "name": "@nativoplatform/video.js",
+  "name": "@life360-oss/video.js",
   "description": "An HTML5 video player that supports HLS and DASH with a common API and skin.",
   "version": "8.4.2-nativo.1",
   "main": "./dist/video.cjs.js",
@@ -82,7 +82,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NativoPlatform/video.js.git"
+    "url": "https://github.com/life360-oss/video.js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@babel/runtime": "^7.12.5",
