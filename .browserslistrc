@@ -5,9 +5,9 @@ Firefox ESR
 Chrome >= 53
 not dead
 not ie 11
-not baidu 7
-not and_qq 11
-not and_uc 12
-not kaios 2
+not baidu 13.52
+not and_qq 14.9
+not and_uc 15.5
+not kaios 2.5
 not op_mini all
-not op_mob 64
+not op_mob 80
