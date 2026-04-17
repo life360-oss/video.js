@@ -16,17 +16,12 @@ jobs:
       packages: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Read node version from .nvmrc
-        id: nvm
-        shell: bash
-        run: echo "NVMRC=$(cat .nvmrc)" >> $GITHUB_OUTPUT
+        uses: actions/checkout@v5
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
+          node-version: '20'
           cache: npm
           registry-url: 'https://npm.pkg.github.com'
           scope: '@life360-oss'
